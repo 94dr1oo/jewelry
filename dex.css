@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    color: #333;
+  }
+  
+  header {
+    background-color: #99627A;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  nav {
+    background-color: #f5f5f5;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo img {
+    height: 50px;
+  }
+  
+  .index {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .index li {
+    margin-right: 20px;
+  }
+  
+  .index li a {
+    color: #333;
+    font-weight: bold;
+    font-size: 16px;
+    transition: color 0.3s;
+  }
+  
+  .index li a:hover {
+    color: #C88EA7;
+  }
+  .hero {
+    background-image: url('https://images-aka.zales.com/category/cyo/20230426/ZAL_CYO_02a.gif');
+    background-size: no-cover;
+    mask-repeat: no-repeat;
+    background-position: center;
+    height: 600px;
+    display: ;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .hero-content {
+    max-width: 600px;
+  }
+  
+  .hero h2 {
+    font-size: 48px;
+    color: #643843;
+    margin-bottom: 20px;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 10px 30px;
+    background-color: #C88EA7;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 30px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #FF4D4D;
+  }
+  .container {
+    overflow: hidden;
+  }
+  
+  img {
+    float: right;
+    margin-right: 20px;
+  }
+  
+  p {
+    clear: left;
+  }
+  .featured-products h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+  }
+  
+  .product {
+    display: inline-block;
+    width: 300px;
+    margin: 0 20px;
+    text-align: left;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .product:hover {
+    transform: translateY(-5px);
+  }
+  
+  .product img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  .product h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .product p {
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+  footer {
+    background-color: #99627A;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }

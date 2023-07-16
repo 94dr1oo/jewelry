@@ -1,0 +1,167 @@
+/* Global Styles */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    color: #333;
+  }
+  
+  header {
+    background-color: #99627A;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  nav {
+    background-color: #f5f5f5;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .index {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  .index li {
+    margin-left: 20px;
+  }
+  
+  .index li a {
+    color: #333;
+    font-weight: bold;
+    font-size: 16px;
+    transition: color 0.3s;
+  }
+  
+  .logo img {
+    height: 50px;
+  }
+  
+  .menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .menu li {
+    margin-right: 20px;
+  }
+  
+  .menu li a {
+    color: #333;
+    font-weight: bold;
+    font-size: 16px;
+    transition: color 0.3s;
+  }
+  
+  .menu li a:hover {
+    color: #f44336;
+  }
+  
+  /* Hero Section Styles */
+  
+  .hero-section {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnZ2tuc5dArTysdRrWuPUHXmQ-Mn59fu7ISw&usqp=CAU");
+    background-size: 600px;
+    background-position: center;
+    text-align: center;
+    padding: 100px 0;
+    color: #fff;
+  }
+  
+  .hero-section h1 {
+    font-size: 40px;
+    margin: 0;
+  }
+  
+  .hero-section p {
+    font-size: 20px;
+    margin: 20px 0;
+  }
+  
+  /* Featured Products Styles */
+  
+  .featured-products {
+    text-align: center;
+    padding: 50px 0;
+  }
+  
+  .featured-products h2 {
+    font-size: 30px;
+    margin-bottom: 30px;
+  }
+  
+  .product-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .product {
+    width: 300px;
+    text-align: center;
+  }
+  
+  .product img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .product h3 {
+    margin: 10px 0;
+  }
+  
+  .product p {
+    margin-bottom: 10px;
+  }
+  .featured-products {
+    text-align: center;
+    padding: 40px 0;
+  }
+  
+  .featured-products h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .Jewelery {
+    display: inline-block;
+    margin: 20px;
+  }
+  
+  .jewelery img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  
+  .jewelery {
+    font-size: 20px;
+    margin: 10px 0;
+  }
+  
+  .jewelery p {
+    color: #777;
+  }
+  
+  /* Footer styles */
+  /* Footer Styles */
+  
+  footer {
+    background-color: #99627A;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  

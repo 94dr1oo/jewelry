@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jewelry Website</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f8f8f8;
+    }
+    
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 40px;
+      background-color: #fff;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      border-radius: 10px;
+      margin-top: 50px;
+    }
+    
+    h1 {
+      font-size: 36px;
+      margin-bottom: 20px;
+      color: #333;
+      text-align: center;
+    }
+    
+    form {
+      display: grid;
+      grid-gap: 20px;
+    }
+    
+    .form-group {
+      display: grid;
+      grid-template-columns: 1fr;
+    }
+    
+    .form-group label {
+      font-size: 18px;
+      color: #333;
+      margin-bottom: 5px;
+    }
+    
+    .form-group input[type="text"],
+    .form-group input[type="email"],
+    .form-group textarea {
+      padding: 10px;
+      font-size: 16px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    
+    .form-group textarea {
+      height: 120px;
+    }
+    
+    .form-group input[type="submit"] {
+      background-color: #333;
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      font-size: 16px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+    
+    .form-group input[type="submit"]:hover {
+      background-color:  #99627A ;
+    }
+    * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    color: #333;
+  }
+  
+  header {
+    background-color: #99627A;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  nav {
+    background-color: #f5f5f5;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo img {
+    height: 50px;
+  }
+  
+  .index {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .index li {
+    margin-right: 20px;
+  }
+  
+  .index li a {
+    color: #333;
+    font-weight: bold;
+    font-size: 16px;
+    transition: color 0.3s;
+  }
+  
+  .index li a:hover {
+    color: #f44336;
+  }
+  footer {
+    background-color: #99627A;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  </style>
+</head>
+<body style="background-color:#E7CBCB;">
+    <center><h1 style="color: aliceblue; background-color: #643843; font-size: 80px; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;"> The Jewelry Emporium</h1></center>
+  
+  
+  
+  
+    <header>
+  
+      <nav>
+        <div class="logo">
+          <img src="https://thumbs.gfycat.com/HairyGlumGalapagostortoise-max-1mb.gif" alt="Logo">
+        </div>
+        <ul class="index">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="About.html">About Us</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+  
+  </header><br>
+
+  <div class="image-container">
+  
+    <center>
+        <img src="https://i.gifer.com/26Zb.gif" width="200" height="200" alt="Jewelry">
+        <img src="https://images.squarespace-cdn.com/content/v1/5462b090e4b047a3e78c12e8/1543009929650-T8GYE8UA4NM9SVIBVLYU/GIF.gif" width="200" height="150" alt="Jewelry">
+    
+    <img src="https://img1.picmix.com/output/stamp/normal/4/4/6/8/268644_e50ee.gif" width="200" height="100" alt="Jewelry">
+    <img src="https://i.gifer.com/ZdPB.gif" width="200" height="100" alt="Jewelry">
+   
+    <img src="https://i.gifer.com/origin/5c/5c8ca18a8e29d8a151266b9a13871e84_w200.gif" width="200" height="150" alt="Jewelry">  
+    <img src="https://i.gifer.com/origin/39/39811b193740d39ec897282387432895.gif" width="200" height="200" alt="Jewelry">
+</center>
+</div>
+  
+
+
+  <div class="container">
+    <h1>Contact Us</h1>
+    
+    <form>
+      <div class="form-group">
+        <label for="name">Your Name</label>
+        <input type="text" id="name" name="name" required>
+      </div>
+      
+      <div class="form-group">
+        <label for="email">Your Email</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+      
+      <div class="form-group">
+        <label for="message">Your Message</label>
+        <textarea id="message" name="message" required></textarea>
+      </div>
+      
+      <div class="form-group">
+        <input type="submit" value="Submit">
+      </div>
+    </form>
+  </div>
+  <footer>
+    <p style="color: #f5f5f5;">&copy; 2023 Jewelry Emporium. All rights reserved.</p>
+  </footer>
+</body>
+</html>
